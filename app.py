@@ -8,7 +8,7 @@ from model import pipe
 
 # Path ke data (untuk ambil pilihan dropdown dan nilai default)
 BASE_DIR = os.path.dirname(__file__)
-DATA_PATH = os.path.join(BASE_DIR, "/data/OTP_Time_Series_Master.xlsx")
+DATA_PATH = os.path.join(BASE_DIR, "OTP_Time_Series_Master.xlsx")
 
 # Baca data utama
 df = pd.read_excel(DATA_PATH)

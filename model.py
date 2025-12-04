@@ -7,7 +7,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, r2_score
 
-df = pd.read_excel("/data/OTP_Time_Series_Master.xlsx")
+df = pd.read_excel("OTP_Time_Series_Master.xlsx")
 
 df.head()
 
